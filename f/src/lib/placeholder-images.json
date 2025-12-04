@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "simulator",
+      "description": "A scientist looking at a complex molecule structure on a screen.",
+      "imageUrl": "https://images.unsplash.com/photo-1614308457932-e16d85c5d053?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzY2llbmNlJTIwbGFib3JhdG9yeXxlbnwwfHx8fDE3NjQ3MTk4OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "science laboratory"
+    },
+    {
+      "id": "repurpose-bot",
+      "description": "An abstract visualization of data points and connections, representing AI analysis.",
+      "imageUrl": "https://images.unsplash.com/photo-1642516303080-431f6681f864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkYXRhJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzY0NjEyOTAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data abstract"
+    },
+    {
+      "id": "radar",
+      "description": "A radar screen showing multiple targets, symbolizing competitor tracking.",
+      "imageUrl": "https://images.unsplash.com/photo-1695631077277-32cdb83e8c95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyYWRhciUyMHNjcmVlbnxlbnwwfHx8fDE3NjQ2OTkwMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "radar screen"
+    }
+  ]
+}
