@@ -1,0 +1,135 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Project-TheraNova%20AI-1f75fe?style=for-the-badge&logo=ai" />
+  <img src="https://img.shields.io/badge/Hackathon-EY%20Techathon%206.0-fdc500?style=for-the-badge&logo=ey" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Backend-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Frontend-React-61DBFB?style=flat-square&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/ML-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Database-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-MVP%20Prototype-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" />
+  <img src="https://img.shields.io/github/contributors/TheraNova-AI-What-If-Simulator-for-Drug-Repurposing?style=flat-square" />
+</p>
+
+# 🌟 TheraNova AI – What-If Drug Repurposing Simulator
+<p align="center">
+  Helping pharma teams make faster, evidence-driven clinical decisions
+</p>
+
+<p align="center">
+  <img src="https://img.icons8.com/color/96/artificial-intelligence.png" width="120"/>
+</p>
+
+> **“Accelerating drug innovation with clinical intelligence.”**
+
+TheraNova AI is a clinical intelligence platform that enables pharmaceutical companies to quickly assess whether an **existing drug molecule** can be **repurposed to treat a new disease**.  
+Our What-If Simulator predicts **success probability**, shows **clinical evidence**, identifies **competitor activity**, and allows users to **save decision history**.
+
+## 🚀 Problem We Solve
+
+Drug discovery is:
+- ⏳ Slow — 10–15 years
+- 💰 Expensive — billions of dollars
+- 🔎 High uncertainty — huge risk of failure
+
+Meanwhile, **already-approved medicines** may help cure **other diseases**, but teams lack a **fast way to validate new use cases**.
+
+✔ Our AI reduces decision time from **months → seconds**
+
+## 🎯 What Our Solution Does
+
+1️⃣ User enters **drug molecule + target disease**  
+2️⃣ AI analyzes:
+- Past clinical trials
+- Biological evidence indicators
+- Competitor involvement
+3️⃣ System generates:
+- Repurposing Score (0–1)
+- Overall verdict (Strong / Promising / Low)
+- Trial evidence summary
+- Competitor landscape
+4️⃣ Results can be **saved to history** for reuse
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Frontend | React + Axios |
+| Backend | Spring Boot (REST API) |
+| ML Service | Python + FastAPI |
+| Database | MySQL |
+| Architecture | Microservices + REST |
+| Deployment (Future) | Docker + Cloud |
+
+## 📐 System Architecture
+
+## ✨ Core Features
+
+| Feature | Description |
+|--------|-------------|
+| What-If Simulator | Predict repurposing viability instantly |
+| AI-driven scoring | Scientific & competitive logic applied |
+| Evidence highlights | Trial results summarized |
+| Competitor intelligence | Who else is working on it |
+| History saving | Auto-persistent insights in DB |
+
+## 📸 UI Preview (Wireframe)
+
+## 📡 API Endpoints
+
+### Backend (Spring Boot)
+
+| Method | Endpoint | Purpose |
+|--------|----------|---------|
+| GET | /api/health | Backend check |
+| POST | /api/analyze | Analyze molecule-disease pair |
+| POST | /api/analyses | Save analysis record |
+| GET | /api/analyses | Get saved history |
+
+### ML Service (FastAPI)
+
+| Method | Endpoint | Purpose |
+|--------|----------|---------|
+| POST | /score | Predict success score & provide evidence |
+
+---
+## ▶ Running Instructions
+
+1. Spring Boot Backend
+```sh
+mvn spring-boot:run
+```
+Server starts at:
+```bash
+http://localhost:8080/api/health
+```
+
+2. React Frontend
+```sh
+npm install
+npm run dev
+```
+Runs at: 
+```arduino
+http://localhost:3000
+```
+
+3. ML Service
+```sh
+uvicorn main:app --reload --port 8000
+```
+
+### 👥 Team Contributions
+
+| Member        | Role               | Responsibilities                                                                |
+|-------------- |------------------- |---------------------------------------------------------------------------------|
+| **Tanya**     | Backend Lead       | Designed REST APIs, implemented Spring Boot services, integrated MySQL database |
+| **Sakshi**    | AI/ML Engineer     | Developed ML scoring engine, built FastAPI microservice, evidence extraction    |
+| **Stuti**     | Frontend Developer | Designed UI screens, integrated backend APIs, results visualization dashboard   |
+| **Dhananjay** | DevOps Engineer    | Local deployment setup, environment configuration, ensured service connectivity |
+
