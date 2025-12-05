@@ -143,3 +143,11 @@ uvicorn main:app --reload --port 8000
 | **Stuti**     | Frontend Developer | Designed UI screens, integrated backend APIs, results visualization dashboard   |
 | **Dhananjay** | DevOps Engineer    | Local deployment setup, environment configuration, ensured service connectivity |
 
+### 🔮 Future Enhancements
+
+| Planned Feature             | Purpose                              |
+| --------------------------- | ------------------------------------ |
+| RepurposeBot                | Ask chat-based questions on evidence |
+| Innovation Radar            | Competitive alerts via dashboards    |
+| Regulatory data integration | Real-time approvals tracking         |
+| Analytics dashboard         | Portfolio & pipeline insights        |
