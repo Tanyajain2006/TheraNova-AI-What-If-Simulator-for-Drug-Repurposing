@@ -96,9 +96,7 @@ Meanwhile, **already-approved medicines** may help cure **other diseases**, but 
 | History saving | Auto-persistent insights in DB |
 
 ## 📸 UI Preview (Wireframe)
-<img width="1343" height="533" alt="image" src="https://github.com/user-attachments/assets/3d2091a8-fde2-4fd8-9c6a-ccd797bc6a91" />
-
-<img width="631" height="584" alt="image" src="https://github.com/user-attachments/assets/666e914c-8f44-441d-b12f-e63d8c49bd39" />
+<img width="1365" height="574" alt="image" src="https://github.com/user-attachments/assets/9f438046-b4ed-48b4-bcf5-8fd8da41a2aa" />
 
 ## 📡 API Endpoints
 
