@@ -55,17 +55,19 @@ Meanwhile, **already-approved medicines** may help cure **other diseases**, but 
 
 ## 🎯 What Our Solution Does
 
-1️⃣ User enters **drug molecule + target disease**  
-2️⃣ AI analyzes:
+1️. User enters **drug molecule + target disease**  
+2️. AI analyzes:
 - Past clinical trials
 - Biological evidence indicators
 - Competitor involvement
-3️⃣ System generates:
+  
+3️. System generates:
 - Repurposing Score (0–1)
 - Overall verdict (Strong / Promising / Low)
 - Trial evidence summary
 - Competitor landscape
-4️⃣ Results can be **saved to history** for reuse
+  
+4️. Results can be **saved to history** for reuse
 
 ## 🛠️ Tech Stack
 
