@@ -1,6 +1,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Project-TheraNova%20AI-1f75fe?style=for-the-badge&logo=ai" />
-  <img src="https://img.shields.io/badge/Hackathon-EY%20Techathon%206.0-fdc500?style=for-the-badge&logo=ey" />
+  <a href="https://unstop.com/competitions/ey-techathon-60-ey-1552002">
+    <img src="https://img.shields.io/badge/Hackathon-EY%20Techathon%206.0-fdc500?style=for-the-badge&logo=ey" />
+  </a>
 </p>
 
 <p align="center">
