@@ -1,0 +1,56 @@
+version: "3.9"
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: thera_db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: thera
+      MYSQL_USER: therauser
+      MYSQL_PASSWORD: therapassword
+    ports:
+      - "3307:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+
+  backend:
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    container_name: thera_backend
+    restart: unless-stopped
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/thera
+      SPRING_DATASOURCE_USERNAME: therauser
+      SPRING_DATASOURCE_PASSWORD: therapassword
+      ML_SERVICE_URL: http://ml:8000
+    depends_on:
+      - db
+      - ml
+    ports:
+      - "8080:8080"
+
+  ml:
+    build:
+      context: ./ML_Feature
+      dockerfile: Dockerfile
+    container_name: thera_ml
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: ./Frontend
+      dockerfile: Dockerfile
+    container_name: thera_frontend
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+
+volumes:
+  db_data:

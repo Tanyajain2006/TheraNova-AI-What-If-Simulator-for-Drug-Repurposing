@@ -10,10 +10,10 @@ public class MLClient {
 
     private final WebClient webClient;
 
-    // Spring will auto-inject WebClient.Builder (because of WebFlux starter)
     public MLClient(WebClient.Builder builder) {
-        // change baseUrl if your ML service runs elsewhere
-        this.webClient = builder.baseUrl("http://ml-service:8000").build();
+        this.webClient = builder
+                .baseUrl("http://ml:8000")
+                .build();
     }
 
     public AnalyzeResponse callMLService(AnalyzeRequest request) {
