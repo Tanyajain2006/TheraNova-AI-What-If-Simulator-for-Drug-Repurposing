@@ -13,8 +13,18 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Status-MVP%20Prototype-green?style=flat-square" />
   <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" />
-  <img src="https://img.shields.io/github/contributors/TheraNova-AI-What-If-Simulator-for-Drug-Repurposing?style=flat-square" />
 </p>
+
+### 👥 Contributors
+<p align="center">
+  <a href="https://github.com/Tanyajain2006/TheraNova-AI-What-If-Simulator-for-Drug-Repurposing/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=Tanyajain2006/TheraNova-AI-What-If-Simulator-for-Drug-Repurposing" />
+  </a>
+</p>
+
+<p align="center">Made with ❤️ by our amazing team!</p>
+
+
 
 # 🌟 TheraNova AI – What-If Drug Repurposing Simulator
 <p align="center">
