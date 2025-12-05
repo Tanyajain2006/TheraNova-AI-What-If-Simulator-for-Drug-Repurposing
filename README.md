@@ -81,6 +81,9 @@ Meanwhile, **already-approved medicines** may help cure **other diseases**, but 
 | Deployment (Future) | Docker + Cloud |
 
 ## 📐 System Architecture
+<img width="1182" height="349" alt="Screenshot 2025-12-05 105551" src="https://github.com/user-attachments/assets/5d5570e0-68fe-44e3-9bf1-86ee2135d7e5" />
+
+<img width="1347" height="897" alt="diagram-export-05-12-2025-10_25_00" src="https://github.com/user-attachments/assets/77ba890e-19c2-4202-a80d-8cc8a9fab3dc" />
 
 ## ✨ Core Features
 
