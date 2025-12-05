@@ -98,6 +98,8 @@ Meanwhile, **already-approved medicines** may help cure **other diseases**, but 
 ## 📸 UI Preview (Wireframe)
 <img width="1365" height="574" alt="image" src="https://github.com/user-attachments/assets/9f438046-b4ed-48b4-bcf5-8fd8da41a2aa" />
 
+<img width="1349" height="570" alt="image" src="https://github.com/user-attachments/assets/1475ec66-ee6b-4005-a5ce-a6fc4023c273" />
+
 ## 📡 API Endpoints
 
 ### Backend (Spring Boot)
