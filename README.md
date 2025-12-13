@@ -69,6 +69,9 @@ Meanwhile, **already-approved medicines** may help cure **other diseases**, but 
   
 4️. Results can be **saved to history** for reuse
 
+## Working Solution (Output)
+
+
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
