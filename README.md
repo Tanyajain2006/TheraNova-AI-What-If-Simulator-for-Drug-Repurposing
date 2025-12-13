@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/badge/Frontend-React-61DBFB?style=flat-square&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/ML-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Database-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/DevOps-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 </p>
 
 <p align="center">
